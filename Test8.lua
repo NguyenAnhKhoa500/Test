@@ -1502,7 +1502,7 @@ Tabs.All:AddParagraph({
     
 Tabs.All:AddButton({
     Title = "BlueX hub",
-        Description = "No Key",
+    Description = "No Key",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-BlueX/BlueX-Hub/refs/heads/main/Main.lua"))()
     end
