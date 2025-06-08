@@ -172,7 +172,6 @@ local Tabs = {
     Shrimp = Window:AddTab({ Title = "Shrimp Game", Icon = "" }),
     AD = Window:AddTab({ Title = "Dead Rail", Icon = "" }),
     GAG = Window:AddTab({ Title = "Grow A Garden", Icon = "" }),
-    Dis = Window:AddTab({ Title = "Discord", Icon = "" }),
 }
 ----------------------------------------Client----------------------------------------
 print("Client Tab Loading")
@@ -1446,7 +1445,7 @@ Tabs.Shrimp:AddButton({
             loadstring(game:HttpGet("https://raw.githubusercontent.com/MateoDev2024/MoonX/refs/heads/main/Loader.lua"))()
         end
     })
-----------------------------------------AD----------------------------------------
+----------------------------------------GAG------------------------------------------------
 print("Load Dead rail Script")
 wait(.0)
 Tabs.AD:AddParagraph({
@@ -1512,14 +1511,6 @@ Tabs.GAG:AddButton({
     Title = "Speed Hub",
     Description = "No Key",
     Callback = function()
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()
-        end
-    })
-----------------------------------------Dis----------------------------------------
-    Tabs.Dis:AddButton({
-        Title = "Discord",
-        Description = "Click to Copy",
-        Callback = function()
-            setclipboard("discord của m")
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua",true))()
         end
     })
