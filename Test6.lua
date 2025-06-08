@@ -1340,7 +1340,7 @@ Tabs.Blr:AddParagraph({
         Content = "Script Support BLR Scroll Down For More"
     })
     
-Tabs.Blr:AddButton({
+    Tabs.Blr:AddButton({
         Title = "Sterling Hub",
         Description = "Key:IDK",
         Callback = function()
@@ -1431,7 +1431,8 @@ Tabs.Shrimp:AddParagraph({
         Title = "Shrimp Game",
         Content = "Script Support Shrimp Game Scroll Down For More"
     })
-Tabs.Shrimp:AddButton({
+
+    Tabs.Shrimp:AddButton({
         Title = "Rip Hub",
         Description = "No Key",
         Callback = function()
@@ -1501,7 +1502,7 @@ Tabs.GAG:AddParagraph({
         Content = "Script Support All Games Scroll Down For More"
     })
 
-Tabs.Grow:AddButton({
+    Tabs.Grow:AddButton({
         Title = "BlueX hub",
         Description = "No Key",
         Callback = function()
