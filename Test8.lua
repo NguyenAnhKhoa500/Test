@@ -1501,17 +1501,17 @@ Tabs.All:AddParagraph({
     })
     
 Tabs.All:AddButton({
-        Title = "BlueX hub",
+    Title = "BlueX hub",
         Description = "No Key",
-        Callback = function()
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-BlueX/BlueX-Hub/refs/heads/main/Main.lua"))()
-        end
-    })
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-BlueX/BlueX-Hub/refs/heads/main/Main.lua"))()
+    end
+})
 
 Tabs.All:AddButton({
     Title = "Speed Hub",
     Description = "No Key",
     Callback = function()
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()
-        end
-    })
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()
+    end
+})
